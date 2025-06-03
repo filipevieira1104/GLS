@@ -1,0 +1,37 @@
+/* Cor do menu lateral */
+.sidebar {
+    background-color: #12274B !important;
+}
+
+/* Cor da barra superior */
+.navbar, .navbar-dark {
+    background-color: #65C98D !important;
+}
+
+/* Botões e links ativos */
+a, .btn-primary, .btn-success, .btn-info {
+    background-color: #65C98D !important;
+    border-color: #65C98D !important;
+    color: white !important;
+}
+
+a:hover, .btn:hover {
+    background-color: #58B880 !important;
+    border-color: #58B880 !important;
+    color: white !important;
+}
+
+/* Ícones de menu ativo */
+.sidebar .nav-link.active {
+    background-color: #65C98D !important;
+    color: white !important;
+}
+
+/* Texto do menu lateral */
+.sidebar .nav-link {
+    color: #ffffff !important;
+}
+
+.sidebar .nav-link:hover {
+    background-color: #19345D !important;
+}

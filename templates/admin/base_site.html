@@ -1,0 +1,5 @@
+{% extends "admin/base.html" %}
+{% block branding %}
+  <h1 id="site-name"><a href="/admin/">Administração</a></h1>
+  <a href="{% url 'admin:dashboard-licencas' %}" class="button" style="margin-left: 1rem; background: #1976d2; color: white; padding: 0.3rem 0.8rem; border-radius: 4px; text-decoration: none;">Dashboard de Licenças</a>
+{% endblock %}
